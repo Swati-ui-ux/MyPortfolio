@@ -6,7 +6,6 @@ import Work from './comonents/Work/Work'
 import Education from './comonents/Education/Education'
 import Contect from './comonents/Contect/Contect'
 import Footer from './comonents/Footer/Footer'
-import Experience from './comonents/Experience/Experience'
 import BlurBlob from './BlurBlob'
 
 const App = () => {

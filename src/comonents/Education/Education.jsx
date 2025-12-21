@@ -66,7 +66,7 @@ const Education = () => {
                   <h3 className='text-gray-200 text-sm font-semibold' >{data.school}</h3>
                 </div>
               </div>
-            <p className='mt-4 text-gray-400 font-bold'>Grade : {data.grade}</p>
+
               {/* Description */}
               <p className='mt-4 text-gray-300 text-sm leading-relaxed'>{data.desc}</p>
 
