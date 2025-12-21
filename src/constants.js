@@ -47,9 +47,7 @@ import fe from './assets/education_logo/FE.jpg';
 import RoomRentApp from './assets/work_logo/RoomRentApp.png';
 import NextjsProject from './assets/work_logo/Nextjs.png';
 import movierecLogo from './assets/work_logo/MovieApp.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
+import passwordKeeper from './assets/work_logo/PasswordKeeper.png';
 import CodeEditor from './assets/work_logo/CodeEditor.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/Background_Remover.png';
@@ -61,14 +59,11 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      { name: 'Angular', logo: angularLogo },
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      { name: 'GSAP', logo: gsapLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
@@ -76,23 +71,19 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
-      { name: 'Springboot', logo: springbootLogo },
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
-      { name: 'PostgreSQL', logo: postgreLogo },
+  
     ],
   },
   {
     title: 'Languages',
     skills: [
-      { name: 'C', logo: cLogo },
-      { name: 'C++', logo: cppLogo },
       { name: 'Java', logo: javaLogo },
       { name: 'Python', logo: pythonLogo },
-      { name: 'C-Sharp', logo: csharpLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
     ],
@@ -242,7 +233,17 @@ export const SkillsInfo = [
   webapp: "https://code-editor-nu-tan.vercel.app/",
 }
 ,
-   
+   {
+  id: 4,
+  title: "Password Keeper",
+  description:
+    "A secure and user-friendly Password Keeper web application built using React.js, HTML, CSS, and JavaScript. It allows users to store, manage, and retrieve their passwords safely in one place with an intuitive interface. This project helps users organize credentials efficiently while focusing on simplicity and usability.",
+  image: passwordKeeper,
+  tags: ["Reactjs", "HTML", "CSS", "JavaScript"],
+  github: "https://github.com/Swati-ui-ux/PasswordKeeper",
+  webapp: "https://password-keeper-ten.vercel.app/",
+}
+,
     {
       id: 6,
       title: "Image Search App",
