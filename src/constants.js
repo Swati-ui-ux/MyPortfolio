@@ -217,9 +217,9 @@ export const SkillsInfo = [
       description:
         "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
       image: NextjsProject,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+      tags: [ "HTML", "CSS", "JavaScript"],
       github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://vercel.com/swati-ui-uxs-projects/texting-nextjs-liia",
+      webapp: "https://texting-nextjs-liia.vercel.app/",
     },
     {
       id: 2,
@@ -232,35 +232,16 @@ export const SkillsInfo = [
       webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
-      id: 3,
-      title: "Code Editor",
-      description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: CodeEditor,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/Swati-ui-ux/CodeEditor",
-      webapp: "https://code-editor-nu-tan.vercel.app/",
-    },
-    {
-      id: 4,
-      title: "Task Reminder Chrome Extension Tool",
-      description:
-        "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-      image: taskremLogo,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "https://github.com/codingmastr/Task-Reminder-Tool",
-      webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-    },
-    {
-      id: 5,
-      title: "Webverse Digital",
-      description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-      image: webverLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "https://github.com/codingmastr/Webverse-Digital",
-      webapp: "https://webversedigital.com/",
-    },
+  id: 3,
+  title: "Code Editor",
+  description:
+    "A lightweight and interactive web-based Code Editor built using HTML, CSS, and JavaScript. It allows users to write, edit, and preview code in real time with a clean and user-friendly interface. This project helps developers practice coding and test snippets efficiently within the browser.",
+  image: CodeEditor,
+  tags: ["HTML", "CSS", "JavaScript"],
+  github: "https://github.com/Swati-ui-ux/CodeEditor",
+  webapp: "https://code-editor-nu-tan.vercel.app/",
+}
+,
    
     {
       id: 6,
