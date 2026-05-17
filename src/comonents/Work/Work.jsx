@@ -11,7 +11,7 @@ const Work = () => {
   }
   return (
     <section id='project'
-    className='py-24 pb-24 px-[12vw] md:px-[7vw] font-sans relative'
+    className='py-20 pb-20 px-[12vw] md:px-[7vw] font-sans relative'
     >
       <div className='text-center mb-16'>
         <h2 className='text-4xl font-bold text-white'>PROJECTS</h2>
@@ -49,7 +49,7 @@ const Work = () => {
               </button>
             </div>
             <div className='flex flex-col '>
-              <div className='w-full flex justify-center bg-gray-900 px-4'>
+              <div className='w-[90%] flex justify-center bg-gray-900 px-4'>
               <img src={selectedProject.image} alt={selectedProject.title} className='lg:w-full w-[95%] object-cover rounded-xl shadow-2xl' />
               </div>
               <div className='lg:p-8 p-6'>

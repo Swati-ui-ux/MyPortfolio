@@ -25,13 +25,16 @@ import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
-
 // Education Section Logo's
+
 import ba from './assets/education_logo/BA.jpg';
 import ma from './assets/education_logo/MA.jpg';
 import fe from './assets/education_logo/FE.jpg';
 
 // Project Section Logo's
+import notesAppImage from "./assets/work_logo/notesApp.png"
+import jobTrackerImage from "./assets/work_logo/jobTrackerApp.png"
+import chatAppImage from "./assets/work_logo/chatApp.png"
 import RoomRentApp from './assets/work_logo/RoomRentApp.png';
 import NextjsProject from './assets/work_logo/Nextjs.png';
 import movierecLogo from './assets/work_logo/MovieApp.png';
@@ -50,7 +53,7 @@ export const SkillsInfo = [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Redux', logo: reduxLogo },
-      { name: 'Next JS', logo: nextjsLogo },
+      // { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
       { name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
@@ -70,8 +73,6 @@ export const SkillsInfo = [
   {
     title: 'Languages',
     skills: [
-      { name: 'Java', logo: javaLogo },
-      { name: 'Python', logo: pythonLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'TypeScript', logo: typescriptLogo },
     ],
@@ -86,7 +87,7 @@ export const SkillsInfo = [
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+      // { name: 'Figma', logo: figmaLogo },
     ],
   },
 ];
@@ -112,7 +113,7 @@ export const SkillsInfo = [
     {
       id: 2,
       img: fe,
-      school: "Frontend Development",
+      school: "Sharpener Coding",
       date: "Apr 2025 - till",
       desc: "Currently learning Full Stack Development at Sharpener Tech, an institute focused on practical, project-based training in modern web technologies. The program covers HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and other essential tools, equipping students with hands-on experience to build real-world applications. The training emphasizes problem-solving, coding best practices, and portfolio-ready projects, preparing learners for a career in frontend and backend development..",
       degree: "Full stack development",
@@ -161,18 +162,47 @@ export const SkillsInfo = [
   tags: ["HTML", "CSS", "JavaScript"],
   github: "https://github.com/Swati-ui-ux/CodeEditor",
   webapp: "https://code-editor-nu-tan.vercel.app/",
-}
-,
-   {
+    },
+{
   id: 4,
-  title: "Password Keeper",
+  title: "Job Tracker App",
   description:
-    "A secure and user-friendly Password Keeper web application built using React.js, HTML, CSS, and JavaScript. It allows users to store, manage, and retrieve their passwords safely in one place with an intuitive interface. This project helps users organize credentials efficiently while focusing on simplicity and usability.",
-  image: passwordKeeper,
-  tags: ["Reactjs", "HTML", "CSS", "JavaScript"],
-  github: "https://github.com/Swati-ui-ux/PasswordKeeper",
-  webapp: "https://password-keeper-ten.vercel.app/",
-}
+    "A full-stack Job Tracker application that helps users manage job applications, companies, reminders, and profile details efficiently. Features include resume upload, authentication, application tracking, search functionality, and reminder management with a responsive modern UI.",
+  image: jobTrackerImage,
+  tags: [
+    "React JS",
+    "Node JS",
+    "Express JS",
+    "MySQL",
+    "Sequelize",
+    "JWT Authentication",
+    "Cloudinary",
+    "Tailwind CSS",
+    "CRUD Operations",
+    "REST API"
+  ],
+  github: "https://github.com/Swati-ui-ux/JobTracker",
+  webapp: "https://job-tracker-frontend-0u45.onrender.com/profile",
+},
+{
+  id: 5,
+  title: "Notes App",
+  description:
+    "A full-stack Notes Application that allows users to create, update, delete, and manage notes efficiently. Built with React.js for the frontend and Node.js/Express.js for the backend, featuring authentication, responsive UI, and secure data management.",
+  image: notesAppImage,
+  tags: [
+    "React JS",
+    "Node JS",
+    "Express JS",
+    "MongoDB",
+    "JWT Authentication",
+    "CRUD Operations",
+    "CSS",
+    "JavaScript"
+  ],
+  github: "https://github.com/Swati-ui-ux/NoteApp",
+  webapp: "https://noteapp-frontend-66qv.onrender.com/",
+},
 ,
     {
       id: 6,
@@ -194,4 +224,25 @@ export const SkillsInfo = [
       github: "https://github.com/Swati-ui-ux/BackgroundRemover",
       webapp: "https://background-remover-mu-azure.vercel.app/",
     },
+    {
+  id: 8,
+  title: "Real-Time Chat App",
+  description:
+    "A full-stack real-time chat application that enables users to send instant messages in personal and group chats. Built with React.js, Node.js, Express.js, Socket.IO, and MySQL, featuring authentication, typing indicators, live messaging, and responsive UI.",
+  image: chatAppImage,
+  tags: [
+    "React JS",
+    "Node JS",
+    "Express JS",
+    "Socket.IO",
+    "MySQL",
+    "Sequelize",
+    "JWT Authentication",
+    "Real-Time Messaging",
+    "Tailwind CSS",
+    "REST API"
+  ],
+  github: "https://github.com/Swati-ui-ux/ChatApp",
+  webapp: "https://chatapp-frontend-new.onrender.com/",
+},
   ];  
