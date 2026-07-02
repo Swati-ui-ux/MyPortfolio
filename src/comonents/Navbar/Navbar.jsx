@@ -59,7 +59,7 @@ ${isScrolled ? "bg-black/50 backdrop-blur-md shadow-md" : "bg-transparent"} bord
           >
           <FaGithub size={24}/>
           </a>
-          <a href="https://www.linkedin.com/"
+          <a href="https://www.linkedin.com/in/swati-singh-9822a13a1/"
             target='_blank'
             rel='sharpener tech'
             className='text-gray-300 hover:text-[#8245ec]'
@@ -89,7 +89,7 @@ ${isScrolled ? "bg-black/50 backdrop-blur-md shadow-md" : "bg-transparent"} bord
           >
           <FaGithub size={24}/>
           </a>
-          <a href="https://www.linkedin.com/feed/?trk=onboarding-landing"
+          <a href="https://www.linkedin.com/in/swati-singh-9822a13a1/"
             target='_blank'
             rel='sharpener tech'
             className='text-gray-300 hover:text-[#fff]'
