@@ -32,7 +32,7 @@ const About = () => {
           <p className='text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed '>My name is Swati Singh. I am passionate about learning Frontend Development and am currently studying at Sharpener Tech. I have learned the fundamentals of HTML, CSS, and JavaScript. I am also familiar with React JS and modern styling frameworks like Tailwind CSS and Bootstrap. I enjoy creating responsive and interactive web designs.</p>
           {/* resume button */}
           <a
-            href="https://drive.google.com/file/d/1f59NHg_Z6qgjvMOYIs2wvtBKHEI-bu8n/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1P5qeiiFp5SXsVLJEY-kpCgBeKVl8cvev/view?usp=drive_link"
             target='_blank'
             className='inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105 '
             style={{
