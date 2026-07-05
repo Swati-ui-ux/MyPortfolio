@@ -37,7 +37,6 @@ import jobTrackerImage from "./assets/work_logo/jobTrackerApp.png"
 import chatAppImage from "./assets/work_logo/chatApp.png"
 import RoomRentApp from './assets/work_logo/RoomRentApp.png';
 import NextjsProject from './assets/work_logo/Nextjs.png';
-import movierecLogo from './assets/work_logo/MovieApp.png';
 import passwordKeeper from './assets/work_logo/PasswordKeeper.png';
 import CodeEditor from './assets/work_logo/CodeEditor.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
@@ -129,8 +128,8 @@ export const SkillsInfo = [
     "A modern and user-friendly React.js web application designed to simplify room rental management for owners and tenants. The app enables efficient management of rooms, tenants, and rental details with secure authentication and role-based access. Its intuitive and responsive interface ensures a smooth experience for listing rooms, assigning tenants, and managing rental information.",
   image: RoomRentApp,
   tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-  github: "https://github.com/Swati-ui-ux/Room_Rent_Project",
-  webapp: "https://room-rent-project.vercel.app/login",
+  github: "https://github.com/Swati-ui-ux/CapstonProject",
+  webapp: "https://capstonproject-frontend-l82k.onrender.com/",
 },
 
     {
@@ -140,18 +139,8 @@ export const SkillsInfo = [
         "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
       image: NextjsProject,
       tags: [ "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
+      github: "https://github.com/Swati-ui-ux/Texting_nextjs",
       webapp: "https://texting-nextjs-liia.vercel.app/",
-    },
-    {
-      id: 2,
-      title: "Movie Recommendation App",
-      description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/Movie-Recommendation-App",
-      webapp: "https://movie-recommendation-app-jet.vercel.app/",
     },
     {
   id: 3,
@@ -181,8 +170,8 @@ export const SkillsInfo = [
     "CRUD Operations",
     "REST API"
   ],
-  github: "https://github.com/Swati-ui-ux/JobTracker",
-  webapp: "https://job-tracker-frontend-0u45.onrender.com/profile",
+  github: "https://github.com/Swati-ui-ux/Salon_App",
+  webapp: "https://jobtracker-frontend-r39v.onrender.com/",
 },
 {
   id: 5,
@@ -242,7 +231,7 @@ export const SkillsInfo = [
     "Tailwind CSS",
     "REST API"
   ],
-  github: "https://github.com/Swati-ui-ux/ChatApp",
-  webapp: "https://chatapp-frontend-new.onrender.com/",
+  github: "https://github.com/Swati-ui-ux/ChatApp_with_mongodb",
+  webapp: "https://chatapp-with-mongodb-frontend.onrender.com/",
 },
   ];  

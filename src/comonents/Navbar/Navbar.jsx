@@ -52,7 +52,7 @@ ${isScrolled ? "bg-black/50 backdrop-blur-md shadow-md" : "bg-transparent"} bord
         }</ul>
         {/* social media icons  */}
         <div className='hidden md:flex space-x-4'>
-          <a href="https://github.com/"
+          <a href="https://github.com/Swati-ui-ux"
             target='_blank'
             rel='sharpener tech'
             className='text-gray-300 hover:text-[#8245ec]'

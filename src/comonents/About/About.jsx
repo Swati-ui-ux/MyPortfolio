@@ -43,7 +43,7 @@ const About = () => {
         </div>
         {/* Right Side */}
         <div className='md:w-1/2 flex justify-between md:justify-end '>
-          <Tilt className='w-60 h-60 sm:w-64 sm:h-64 md:w-[23rem] md:h-[23rem] border-2 border-purple-700 rounded-full'
+          <Tilt className='w-70 h-80 rounded-bl-4xl rounded-tr-4xl  sm:w-64 sm:h-64 md:w-[23rem] md:h-[23rem] border-2 border-purple-700 '
             tiltMaxAngleY={20}
             tiltMaxAngleX={20}
             perspective={1000}
@@ -51,7 +51,7 @@ const About = () => {
             transitionSpeed={100}
             gyroscope={true}
           >
-          <img src="swati.jpeg" alt="swati" className='w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]' />
+          <img src="swati.jpeg" alt="swati" className='w-full h-full rounded-bl-4xl rounded-tr-4xl object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]' />
           </Tilt>
         </div>
         

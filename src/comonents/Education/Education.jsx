@@ -16,80 +16,73 @@ const Education = () => {
         </p>
       </div>
 
-      {/* Timeline */}
-      <div className='relative max-w-6xl mx-auto'>
-        {/* Vertical line */}
-        <div className='absolute left-1/2 transform -translate-x-1/2 w-0.5 bg-gray-300 h-full hidden md:block'></div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+  {education.map((data) => (
+      
+      <div
+  key={data.id}
+  className="group relative overflow-hidden rounded-2xl border border-purple-500/20 bg-[#111827] p-6 shadow-lg transition-all duration-500 hover:-translate-y-3 hover:shadow-purple-500/30 hover:border-purple-500"
+>
+  {/* Gradient Blur */}
+  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-500 bg-gradient-to-br from-purple-500/10 via-transparent to-pink-500/10"></div>
 
-        {/* Education entries */}
-        {education.map((data, index) => (
-          <div
-            key={data.id}
-            className={`flex flex-col md:flex-row items-start mb-16 relative ${
-              index % 2 === 0 ? 'md:flex-row-reverse' : ''
-            }`}
-          >
-            {/* Timeline circle */}
-            <div className='absolute left-1/2 transform -translate-x-1/2 bg-gray-900 border-4 border-purple-500 w-8 h-8 sm:w-10 sm:h-10 rounded-full flex justify-center items-center z-10'>
-              <img
-                src={data.img}
-                alt={data.degree}
-                className='w-4/5 h-4/5 object-contain rounded-full'
-              />
-            </div>
+  {/* Card Content */}
+  <div className="relative z-10">
 
-            {/* Content box */}
-            <div
-              className={`w-full md:w-5/12 bg-gray-800 bg-opacity-70 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-gray-700 transform transition-all duration-300 hover:shadow-purple-500/50 hover:-translate-y-2
-                mt-12 md:mt-0
-                ${index % 2 === 0 ? 'md:ml-auto md:mr-2' : 'md:mr-auto md:ml-2'}
-              `}
+    {/* Logo */}
+    <div className="w-16 h-16 rounded-full bg-white overflow-hidden shadow-lg mb-5">
+      <img
+        src={data.img}
+        alt={data.degree}
+        className="w-full h-full object-cover"
+      />
+    </div>
+
+    {/* Degree */}
+    <h3 className="text-xl font-semibold text-white">
+      {data.degree}
+    </h3>
+
+    {/* School */}
+    <p className="text-gray-400 mt-1">
+      {data.school}
+    </p>
+
+    {/* Date */}
+    <span className="inline-block mt-3 px-3 py-1 rounded-full bg-purple-600/20 text-purple-300 text-xs border border-purple-500/30">
+      {data.date}
+    </span>
+
+    {/* Description */}
+    <p className="mt-5 text-gray-300 text-sm leading-7">
+      {data.desc}
+    </p>
+
+    {/* Skills */}
+    {data.skills && (
+      <div className="mt-6">
+        <h5 className="text-white text-sm font-semibold mb-3">
+          Technologies / Subjects
+        </h5>
+
+        <div className="flex flex-wrap gap-2">
+          {data.skills.map((skill, index) => (
+            <span
+              key={index}
+              className="px-3 py-1 rounded-full bg-purple-500/10 border border-purple-500/30 text-purple-300 text-xs transition duration-300 hover:bg-purple-500 hover:text-white"
             >
-
-              {/* Header with logo and info */}
-              <div className='flex items-start space-x-4'>
-               <div className="w-14 h-14 bg-white rounded-full overflow-hidden flex-shrink-0 shadow-md">
-  <img
-    src={data.img}
-    alt={data.degree}
-    className="w-full h-full object-cover"
-  />
-</div>
-
-                <div className='flex-1 min-w-0'>
-                  <h3 className='text-xl font-semibold text-white truncate'>{data.degree}</h3>
-              {/* Date (mobile only) */}
-              <p className='text-purple-400 text-sm font-medium mb-2 block md:hidden'>
-                {data.date}
-              </p>
-                  <p className='text-gray-400 text-sm mt-1 hidden md:block'>{data.date}</p>
-                  <h3 className='text-gray-200 text-sm font-semibold' >{data.school}</h3>
-                </div>
-              </div>
-
-              {/* Description */}
-              <p className='mt-4 text-gray-300 text-sm leading-relaxed'>{data.desc}</p>
-
-              {/* Skills */}
-              {data.skills && data.skills.length > 0 && (
-                <div className='mt-5 pt-4 border-t border-gray-700'>
-                  <h5 className='font-medium text-white text-sm mb-2'>Technologies / Subjects:</h5>
-                  <ul className='flex flex-wrap gap-2'>
-                    {data.skills.map((skill, idx) => (
-                      <li
-                        key={idx}
-                        className='bg-purple-600/80 text-gray-100 px-3 py-1 text-xs rounded-lg border border-purple-400/40'
-                      >
-                        {skill}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </div>
-          </div>
-        ))}
+              {skill}
+            </span>
+          ))}
+        </div>
       </div>
+    )}
+
+  </div>
+    </div>
+  ))}
+</div>
+      
     </section>
   )
 }

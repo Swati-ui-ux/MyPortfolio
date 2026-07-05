@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaFacebook,FaInstagram,FaTwitter,FaYoutube,FaLinkedin} from "react-icons/fa"
+import {FaFacebook,FaInstagram,FaTwitter,FaYoutube,FaLinkedin, FaGift, FaGithub} from "react-icons/fa"
 const Footer = () => {
 const  handleScroll = (sectionId) => {
   const section = document.getElementById(sectionId);
@@ -31,9 +31,9 @@ const  handleScroll = (sectionId) => {
         <div className='flex flex-wrap justify-center space-x-4 mt-6'>
           {[
             { icon: <FaFacebook />, link: "https://www.facebook.com/" },
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/feed/?trk=onboarding-landing" },
+            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/swati-singh-9822a13a1/" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/coder2265/" },
-            {icon:<FaYoutube/>,link:"https://www.youtube.com/@SwatiGola-v4f6q"},
+            {icon:<FaGithub/>,link:"https://www.github.com/Swati-ui-ux"},
           ].map((item, index) => (<a
             key={index}
             target='_blank'
