@@ -109,15 +109,6 @@ export const SkillsInfo = [
       desc: "I have completed Master of Arts (M.A.) from Mahatma Jyotiba Phule Rohilkhand University, Bareilly. The university emphasizes quality education, research, and holistic student development, offering advanced learning and academic growth in the Arts discipline.",
         degree: "[MA] Master of Art",
     },
-    {
-      id: 2,
-      img: fe,
-      school: "Sharpener Coding",
-      date: "Apr 2025 - till",
-      desc: "Currently learning Full Stack Development at Sharpener Tech, an institute focused on practical, project-based training in modern web technologies. The program covers HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, and other essential tools, equipping students with hands-on experience to build real-world applications. The training emphasizes problem-solving, coding best practices, and portfolio-ready projects, preparing learners for a career in frontend and backend development..",
-      degree: "Full stack development",
-    },
-   
   ];
   
   export const projects = [
